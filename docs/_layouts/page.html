@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<!-- <div class="sidebar">
+  <ul class="actors_list">
+    {% for item in site.data.list %}
+    <li>
+      <a href="/consolidated_list_of_actors/{{ item.url }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div> -->
+
+{% if page.sidebar == "actors_list" %}
+{% for a in site.data.actors %}
+{% assign page_url = page.url | split: "/" %}
+{% if a.id == page_url[1] %}
+<article class="post actor-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ a.label | escape }}</h1>
+  </header>
+  <p>{{ a.id }} | {{ a.type }}</p>
+  <div class="post-content">
+    {% for d in a.data %}
+    <div class="block {{ d.block | downcase | replace: " ", "-"}}">
+      <h3>{{ d.block }}</h3>
+      
+      <table>
+        <tbody>
+          {% for bd in d.block_data %}
+          <tr>
+            <td class="row-header">{{ bd.item }}</td>
+            <td>
+              <ul>
+                {% for item_data in bd.item_data %}
+                <li>
+                  {{ item_data.value }}
+                  {% if item_data.source %}
+                  <span><em>(
+                  {% if item_data.url %}
+                  <a href="{{ item_data.url }}">
+                    {{ item_data.source }}
+                  </a>
+                  {% else %}
+                  {{ item_data.source }}
+                  {% endif %}
+                  )</em></span>
+                  {% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% endfor %}
+  </div>
+</article>
+{% endif %}
+{% endfor %}
+{% else %}
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+{% endif %}

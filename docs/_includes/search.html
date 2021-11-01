@@ -1,0 +1,104 @@
+<!-- The following code for Search feature via lunr.js was based on the example sourced from https://jekyllcodex.org/without-plugin/search-lunr/# -->
+
+<!-- lunr.js
+
+Copyright (C) 2013 by Oliver Nightingale
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. -->
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+
+<script>
+{% assign counter = 0 %}
+var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+    "id": {{ counter }},
+    "url": "{{ site.url }}/collections-model{{ page.url }}",
+    "title": "{% if page.titleEn %}{{ page.titleEn}}{% else %}{{ page.title }}{% endif %}",
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | replace: '</td>', ' ' | strip_html | strip_newlines |   replace: 'EN-', '' | replace: 'FR', '' | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }{% if forloop.last %}{% else %}, {% endif %}{% endif %}{% endfor %}];
+
+var idx = lunr(function () {
+    this.ref('id')
+    this.field('title')
+    this.field('body')
+    this.metadataWhitelist = ['position']
+
+    documents.forEach(function (doc) {
+        this.add(doc)
+    }, this)
+});
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
+        // document.getElementById('lunrsearchresults').innerHTML = "<p>Search results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        
+        if(results.length > 0){
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                // var body = documents[ref]['body'].substring(0,160)+'...';
+                var metadata = results[i]['matchData']['metadata']
+                for (const [key, value] of Object.entries(metadata)){
+                    if ('body' in metadata[key]){
+                        var body = '';
+                        var p = metadata[key]['body']['position'];
+                        for (var x=0; x < p.length; x++) {
+                            var position = p[x][0];
+                            var r = '...'+documents[ref]['body'].substring(position-50,position)+'<strong>'+documents[ref]['body'].substring(position,position+key.length+1)+'</strong>'+documents[ref]['body'].substring(position+key.length+1,position+50)+'...'+'<br>';
+                            body += r;
+                        }
+                    } else {
+                        var body = documents[ref]['body'].substring(0,160)+'...';
+                    }
+                    
+                    
+                    break
+                }
+                // var position = results[i]['matchData']['metadata'][term]['body']['position'][0][0]
+                
+                // console.log(position);
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "' target='_blank'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>{% if page.url contains '/en/' %}No result found...{% elsif page.url contains '/fr/' %}Aucun résultat trouvé...{% endif %}</li>";
+        }
+    }
+    return false;
+}
+</script>
+
+
+<div id="search-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="search-close">&times;</span>
+        <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+            <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="{% if page.url contains '/en/' %}Search{% elsif page.url contains '/fr/' %}Rechercher{% endif %} via Lunr.js" />
+            <button type="submit">&#128269;</button>
+        </form>
+        <p><em>e.g. 'entry nodes', '+entry +nodes', 'title:entry title:nodes'...</em></p>
+        <div id="lunrsearchresults">
+            <ul></ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+actors_list:
+
+- title: Person
+  group: person
+  subfolder:
+  - page: Yousuf Karsh (1908-2002)
+    url: /0001_100
+
+- title: Group
+  group: group
+  subfolder:
+  - page: The Canadian Group of Painters (1933-1969)
+    url: /0001_112

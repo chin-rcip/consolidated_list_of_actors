@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="{{ page.language | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    {%- include search.html -%}
+
+    <main class="page-content {% if page.sidebar %}main-with-sidebar{% endif %}" aria-label="Content">
+      {% if page.sidebar %}
+        <div class="{% if page.sidebar %}column sidebar{% endif %}">
+          <!-- <h3>{% if page.sidebar == "v71" %}Version 7.1
+              {% else %}{{ page.title}}
+              {% endif %}
+          </h3> -->
+          <ul class="mainlist{% if item.group %} toggle-sidebar{% endif %}">
+            {% for item in site.data.sidetoc[page.sidebar] %}
+              {% assign item_url = item.url | split: "#" %}
+              <li>
+                <a {% if item.hash %}id="toc-{{ item.hash }}"{% endif %} href="{% if item.url %}/consolidated_list_of_actors{{ item.url }}{% else %}javascript:void(0){% endif %}" class="{% if item.group %}toggle-sidebar-list {% if item.group == page.group%}open{% endif %}{% endif %}">{{ item.title }}
+                  {% if item.group %}
+                  <span class="triangle">{% if item.group == page.group %}&#9660;{% else %}&#9655;{% endif %}</span>
+                  {% endif %}
+                  <span class="tooltip">{{ item.title }}</span>
+                </a>
+                
+                {% if item.subfolder[0] %}
+                  <ul class="sublist{% unless item.group %} indent{% endunless %}" style="{% if item.group %}{% if item.group != page.group %}display:none{% endif %}{% else %}{% if item_url[0] != page.url %}display:none{% endif %}{% endif %}">
+                  {% for entry in item.subfolder %}
+                    {% assign entry_url = "/consolidated_list_of_actors" | append: entry.url %}
+                    {% assign entry_url_split = entry.url | split: "#" %}
+                    <li>
+                      <a id="{% if entry.hash %}toc-{{ entry.hash }}{% endif %}" href="{% if entry.url %}{{ entry_url }}{% else %}javascript:void(0){% endif %}" class="{% if entry.url == page.url %}active{% endif %}">{{ entry.page }}
+                        <span class="tooltip">{{ entry.page }}</span>
+                      </a>
+                      
+                      {% if entry.subsubfolder[0] %}
+                        <ul class="subsublist{% unless item.group %} indent{% endunless %}"  style="{% if entry_url_split[0] != page.url %}display:none{% endif %}">
+                        {% for subentry in entry.subsubfolder %}
+                          {% assign subentry_url = "/consolidated_list_of_actors" | append: subentry.url %}
+                          <li>
+                            <a id="{% if subentry.hash %}toc-{{ subentry.hash }}{% endif %}" href="{% if subentry.url %}/consolidated_list_of_actors{{ subentry.url }}{% else %}javascript:void(0){% endif %}" onclick="active(this)">{{ subentry.page }}
+                              <span class="tooltip">{{ subentry.page }}</span>
+                            </a>
+
+                            {% if subentry.sub-subsubfolder[0] %}
+                              <ul class="sub-subsublist{% unless item.group %} indent{% endunless %}">
+                              {% for sub-subentry in subentry.sub-subsubfolder %}
+                                {% assign sub-subentry_url = "/consolidated_list_of_actors" | append: sub-subentry.url %}
+                                <li>
+                                  <a id="{% if sub-subentry.hash %}toc-{{ sub-subentry.hash }}{% endif %}" href="{% if sub-subentry.url %}{{ sub-subentry_url }}{% else %}javascript:void(0){% endif %}" onclick="active(this)">{{ sub-subentry.page }}
+                                    <span class="tooltip">{{ sub-subentry.page }}</span>
+                                  </a>
+                                  
+                                </li>
+                              {% endfor %}
+                              </ul>
+                            {% endif %}
+                            
+                          </li>
+                        {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      
+      <div class="column content">
+        <div class="
+          {% if page.sidebar %}main-content
+          {% else %}wrapper
+          {% endif %}">
+
+          {{ content }}
+        </div>
+
+        {%- include footer.html -%}
+      </div>
+    </main>
+
+    <script type="text/javascript">
+      function active(element) {
+        var cur_active = document.getElementsByClassName("active");
+        var i;
+        for (i = 0; i < cur_active.length; i++) {
+          cur_active[i].setAttribute("class", "");
+        };
+        element.setAttribute("class", "active");
+      };
+
+      function highlight() {
+        var headers = $(".main-content :header").not("h1"); // get all headers in the main-content
+        var anchor = $(".sidebar a:visible")[1] // get the 2nd <a> to get its offset top later.
+        var x;
+        for (x = 0; x < headers.length; x++) {
+          var header_top = $(headers[x]).offset().top;
+          
+          if (header_top > 30){
+            if (header_top < 250){
+              var header_id = $(headers[x]).attr("id");
+            } else {
+              var header_id = $(headers[x - 1]).attr("id");
+            }
+            // console.log(header_id)
+            if (header_id != undefined) {
+              var toc_x = $("#toc-"+header_id);
+              // console.log(toc_x);
+              $(".active").removeClass("active");
+              toc_x.addClass("active");
+              // scroll to active <a> of sidebar
+              $(".sidebar").animate({
+                scrollTop: toc_x.offset().top - $(anchor).offset().top}, 100);
+              break
+            } else { break }
+            
+          }
+
+        }
+      };
+
+      // show/hide sidebar item
+      $(".mainlist>li>.toggle-sidebar-list").on("click", function() {
+        $(this).siblings().toggle();
+        $(this).toggleClass("open");
+        if ($(this).hasClass('open')){
+          $(this).find(".triangle").text('\u25BC');
+        } else {$(this).find(".triangle").text('\u25B7');}
+        
+      });
+      // show/hide search modal
+      $("#search-icon").on("click", function(){
+        $("#search-modal").show();
+      });
+
+      $("#search-close").on("click", function(){
+        $("#search-modal").hide();
+      });
+
+      $(document).on("click", function(event){
+        if ($(event.target).hasClass("modal")){
+          $("#search-modal").hide();
+        };
+      });
+
+
+       $(document).ready(function() {
+
+        // Hide all tooltips on window load
+        $(".tooltip").hide();
+        highlight();
+
+        // dropdown menu toggle
+        $(".has-dropdown").click(function(){
+          var other_dropdown = $(".has-dropdown").not(this);
+          other_dropdown.removeClass("visible");
+          other_dropdown.find(".dropdown").removeClass("visible");
+          $(this).find(".dropdown").toggleClass("visible");
+          $(this).toggleClass("visible");
+        });
+
+        // Add border-right to last cell of english content
+        $("tr").children().not(".en").prev(".en").css("border-right","solid 3px #cccccc");
+        
+       });
+
+      // click anywhere in the html to hide dropdown menu
+      $(document).on("click", function(event){
+        // console.log($(event.target))
+        if (!$(event.target).hasClass("has-dropdown")){
+          $(".has-dropdown,.dropdown").removeClass("visible");
+        }
+      });
+
+     
+
+      // switching language by clicking language button
+      $(".lang-buttons>button").click(function(){
+        $(this).siblings().removeClass("activate");
+        $(this).addClass("activate");
+        // content_by_lang(this);
+        var button_id = $(this).attr("id");
+        if (button_id == "en-fr"){
+          $(".en").addClass("show");
+          var title = "{% if page.titleEn %}{{ page.titleEn}}{% else %}{{ page.title }}{% endif %}";
+          $(".post-title").text(title);
+        } else {
+          $(".en").removeClass("show");
+          $(".post-title").text("{{ page.title }}");
+        }
+      });
+      
+
+       // scroll sidebar and highlight corresponding headers
+      $(".column.content").scroll(function(){
+        highlight();
+      });
+
+      // tooltips  
+      $(".sidebar a").on({
+        mouseenter: function(){
+          if ($(window).width() > 800){
+            var top = $(this).offset().top + $(this).height();
+            var left = $(".sidebar").width();
+            var tooltip = $(this).children("span.tooltip");
+            // set tooltip top and left position
+            tooltip.css({"left": left + 40, "top": top - 30});
+            // console.log($(this).outerWidth(), $(this)[0].scrollWidth);
+            // showing tooltip only if ".sidebar a" outerWidth < its scrollWidth
+            if ($(this).outerWidth() + 0.5 < $(this)[0].scrollWidth){
+              tooltip.show();
+            }
+          };
+          
+        },
+
+        mouseleave: function(){
+          var tooltip = $(this).children("span.tooltip");
+          tooltip.hide();
+        }
+      });
+
+    </script>
+  </body>
+
+</html>

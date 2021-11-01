@@ -1,0 +1,72 @@
+[
+	{
+		"id": "0001_100",
+		"url": "https://chin-rcip.github.io/consolidated_list_of_actors/0001_100",
+		"label": "Yousuf Karsh (1908-2002)",
+		"type": "Person",
+		"data": [
+			{
+				"block": "Identification",
+				"block_data": [
+					{
+						"item": "Identifiers",
+						"item_data": [
+							{"value": "8494", "source": "Artists in Canada", "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=8494"},
+							{"value": "500013272", "source": "Union List of Artist Names", "url": "http://vocab.getty.edu/page/ulan/500013272"},
+							{"value": "Q312859", "source": "Wikidata", "url": "https://www.wikidata.org/wiki/Q312859"}
+						] 			
+					},
+					{
+						"item": "Appellations",
+						"item_data": [
+							{"value": "Karsh, Yousuf", "source": "Artists in Canada"},
+							{"value": "Yousuf Karsh", "source": "Wikidata"}
+						]
+					}
+				]
+			},
+			{
+				"block": "Life Events",
+				"block_data": [
+					{
+						"item": "Birth",
+						"item_data": [
+							{"value": "1908-12-23", "type": "Date"},
+							{"value": "Mardin, Ottoman Empire", "type": "Place"}
+						]
+					},
+					{
+						"item": "Death",
+						"item_data": [
+							{"value": "2002-07-13", "type": "Date"},
+							{"value": "Boston, USA-MA", "type": "Place"}
+						]
+					},
+					{
+						"item": "Occupation",
+						"item_data": [
+							{"value": "Photographer"}
+						]
+					}
+				]
+			},
+			{
+				"block": "Descriptive Information",
+				"block_data": [
+					{
+						"item": "Biography",
+						"item_data": [
+							{"value": "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": "0001_112",
+		"url": "https://chin-rcip.github.io/consolidated_list_of_actors/0001_112",
+		"label": "The Canadian Group of Painters (1933-1969)",
+		"type": "Group"
+	}
+]
