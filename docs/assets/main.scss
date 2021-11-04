@@ -300,6 +300,10 @@ li a.active {
 .column.content a {
 	overflow-wrap: anywhere;
 }
+
+.column.content {
+	width: 100%;
+}
 /*.main-with-sidebar div.wrapper{
 	margin-left: 0;
 }*/
@@ -313,7 +317,9 @@ td {
 }
 
 
-
+td img {
+	width: 30%;
+}
 /*--- hide content ---*/
 
 .hidden-content {

@@ -1,72 +1,1979 @@
 [
-	{
-		"id": "0001_100",
-		"url": "https://chin-rcip.github.io/consolidated_list_of_actors/0001_100",
-		"label": "Yousuf Karsh (1908-2002)",
-		"type": "Person",
-		"data": [
-			{
-				"block": "Identification",
-				"block_data": [
-					{
-						"item": "Identifiers",
-						"item_data": [
-							{"value": "8494", "source": "Artists in Canada", "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=8494"},
-							{"value": "500013272", "source": "Union List of Artist Names", "url": "http://vocab.getty.edu/page/ulan/500013272"},
-							{"value": "Q312859", "source": "Wikidata", "url": "https://www.wikidata.org/wiki/Q312859"}
-						] 			
-					},
-					{
-						"item": "Appellations",
-						"item_data": [
-							{"value": "Karsh, Yousuf", "source": "Artists in Canada"},
-							{"value": "Yousuf Karsh", "source": "Wikidata"}
-						]
-					}
-				]
-			},
-			{
-				"block": "Life Events",
-				"block_data": [
-					{
-						"item": "Birth",
-						"item_data": [
-							{"value": "1908-12-23", "type": "Date"},
-							{"value": "Mardin, Ottoman Empire", "type": "Place"}
-						]
-					},
-					{
-						"item": "Death",
-						"item_data": [
-							{"value": "2002-07-13", "type": "Date"},
-							{"value": "Boston, USA-MA", "type": "Place"}
-						]
-					},
-					{
-						"item": "Occupation",
-						"item_data": [
-							{"value": "Photographer"}
-						]
-					}
-				]
-			},
-			{
-				"block": "Descriptive Information",
-				"block_data": [
-					{
-						"item": "Biography",
-						"item_data": [
-							{"value": "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."}
-						]
-					}
-				]
-			}
-		]
-	},
-	{
-		"id": "0001_112",
-		"url": "https://chin-rcip.github.io/consolidated_list_of_actors/0001_112",
-		"label": "The Canadian Group of Painters (1933-1969)",
-		"type": "Group"
-	}
+    {
+        "label": "David Altmejd (1974-)",
+        "id": "0001_109",
+        "type": "Person",
+        "sort_name": "Altmejd, David (1974-)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": "46250",
+                                "source": "Artists in Canada",
+                                "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=46250"
+                            },
+                            {
+                                "value": "500122413",
+                                "source": "Union List of Artist Names",
+                                "url": "http://vocab.getty.edu/page/ulan/500122413"
+                            },
+                            {
+                                "value": "Q2725057",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q2725057"
+                            },
+                            {
+                                "value": "41608223",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/41608223"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "David Altmejd"
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1974",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Montréal, CA-QC",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": null,
+                                "type": "Date"
+                            },
+                            {
+                                "value": null,
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": "sculptor"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Image",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Musée national des beaux-arts du Québec"
+                            },
+                            {
+                                "value": "Print Collection of The New York Public Library"
+                            },
+                            {
+                                "value": "Royal Museums of Fine Arts of Belgium"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Cyril Henry Barraud (1877-1965)",
+        "id": "0001_114",
+        "type": "Person",
+        "sort_name": "Barraud, Cyril Henry (1877-1965)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": "34489",
+                                "source": "Artists in Canada",
+                                "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=34489"
+                            },
+                            {
+                                "value": "500004001",
+                                "source": "Union List of Artist Names",
+                                "url": "http://vocab.getty.edu/page/ulan/500004001"
+                            },
+                            {
+                                "value": "Q16003791",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q16003791"
+                            },
+                            {
+                                "value": "95704975",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/95704975"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Cyril Henry Barraud"
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1877-07-09",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Barnes, GB-RIC",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": "1965",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "London, GB-LND",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": "painter"
+                            },
+                            {
+                                "value": "printmaker"
+                            },
+                            {
+                                "value": "etcher"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": "Canadian War Museum"
+                            },
+                            {
+                                "value": "Library and Archives Canada"
+                            },
+                            {
+                                "value": "National Trust"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Emily Carr (1871-1945)",
+        "id": "0001_106",
+        "type": "Person",
+        "sort_name": "Carr, Emily (1871-1945)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": "2722",
+                                "source": "Artists in Canada",
+                                "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=2722"
+                            },
+                            {
+                                "value": "500020751",
+                                "source": "Union List of Artist Names",
+                                "url": "http://vocab.getty.edu/page/ulan/500020751"
+                            },
+                            {
+                                "value": "Q289624",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q289624"
+                            },
+                            {
+                                "value": "56618171",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/56618171"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Emily Carr"
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1871-12-13T00:00:00",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Victoria, CA-BC",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": "1945-03-02",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Victoria, CA-BC",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Image",
+                        "item_data":
+                        [
+                            {
+                                "value": "https://upload.wikimedia.org/wikipedia/commons/2/22/Emily_Carr_%28I0007935%29.jpg", "source": "Emily Carr (I0007935) - M.O. Hammond fonds - Archives of Ontario, Public domain, via Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Emily_Carr_(I0007935).jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Musée d'art contemporain de Montréal"
+                            },
+                            {
+                                "value": "Glenbow Museum"
+                            },
+                            {
+                                "value": "Art Gallery of New South Wales"
+                            },
+                            {
+                                "value": "Vancouver Art Gallery"
+                            },
+                            {
+                                "value": "Art Gallery of Greater Victoria"
+                            },
+                            {
+                                "value": "Audain Art Museum"
+                            },
+                            {
+                                "value": "Art Gallery of Ontario"
+                            },
+                            {
+                                "value": "Montreal Museum of Fine Arts"
+                            },
+                            {
+                                "value": "McMichael Canadian Art Collection"
+                            },
+                            {
+                                "value": "Musée d'art de Joliette"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "A. J. Casson (1898-1992)",
+        "id": "0001_113",
+        "type": "Person",
+        "sort_name": "Casson, A. J. (1898-1992)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": "2792",
+                                "source": "Artists in Canada",
+                                "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=2792"
+                            },
+                            {
+                                "value": "500021445",
+                                "source": "Union List of Artist Names",
+                                "url": "http://vocab.getty.edu/page/ulan/500021445"
+                            },
+                            {
+                                "value": "Q1274194",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q1274194"
+                            },
+                            {
+                                "value": "85973171",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/85973171"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "A. J. Casson"
+                            },
+                            {
+                                "value": "Alfred Joseph Casson"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1898-05-17",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Toronto, CA-ON",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": "1992-02-19",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Toronto, CA-ON",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": "painter"
+                            },
+                            {
+                                "value": "printmaker"
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Image",
+                        "item_data":
+                        [
+                            {
+                                "value": "https://upload.wikimedia.org/wikipedia/commons/b/b0/10381_casson_at_easel_1020.jpg", "source": "Alfred J. Casson (I0010381) - Ontario Society of Artists - Archives of Ontario, Public domain, via Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:10381_casson_at_easel_1020.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "McMichael Canadian Art Collection"
+                            },
+                            {
+                                "value": "Canadian War Museum"
+                            },
+                            {
+                                "value": "Art Gallery of Ontario"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Yousuf Karsh (1908-2002)",
+        "id": "0001_100",
+        "type": "Person",
+        "sort_name": "Karsh, Yousuf (1908-2002)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": "8494",
+                                "source": "Artists in Canada",
+                                "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=8494"
+                            },
+                            {
+                                "value": "500013272",
+                                "source": "Union List of Artist Names",
+                                "url": "http://vocab.getty.edu/page/ulan/500013272"
+                            },
+                            {
+                                "value": "Q312859",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q312859"
+                            },
+                            {
+                                "value": "36920271",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/36920271"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Yousuf Karsh"
+                            },
+                            {
+                                "value": "Յուսուֆ Քարշ"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1908-12-23",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Mardin, Ottoman Empire",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": "2002-07-13",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Boston, USA-MA",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": "photographer"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Image",
+                        "item_data":
+                        [
+                            {
+                                "value": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yousuf-Karsh.jpg", "source": "Self Portrait - Yousuf Karsh (3198631) - Yousuf Karsh fonds - Library and Archives of Canada, Public domain, via Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:Yousuf-Karsh.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": "Minneapolis Institute of Art"
+                            },
+                            {
+                                "value": "Art Institute of Chicago"
+                            },
+                            {
+                                "value": "The Nelson-Atkins Museum of Art"
+                            },
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Musée de la civilisation"
+                            },
+                            {
+                                "value": "Metropolitan Museum of Art"
+                            },
+                            {
+                                "value": "Photography Collection of the New York Public Library"
+                            },
+                            {
+                                "value": "Museum of Fine Arts"
+                            },
+                            {
+                                "value": "National Portrait Gallery"
+                            },
+                            {
+                                "value": "National Portrait Gallery"
+                            },
+                            {
+                                "value": "Stedelijk Museum Amsterdam"
+                            },
+                            {
+                                "value": "NIOD Institute for War"
+                            },
+                            {
+                                "value": "Holocaust and Genocide Studies"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "John Lyman (1886-1967)",
+        "id": "0001_117",
+        "type": "Person",
+        "sort_name": "Lyman, John (1886-1967)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": "10203",
+                                "source": "Artists in Canada",
+                                "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=10203"
+                            },
+                            {
+                                "value": "500031245",
+                                "source": "Union List of Artist Names",
+                                "url": "http://vocab.getty.edu/page/ulan/500031245"
+                            },
+                            {
+                                "value": "Q3181963",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q3181963"
+                            },
+                            {
+                                "value": "77801448",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/77801448"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "John Lyman"
+                            },
+                            {
+                                "value": "John Goodwin Lyman"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1886-09-29",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Biddeford, US-ME",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": "1967-05-26",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Barbados",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": "painter"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Image",
+                        "item_data":
+                        [
+                            {
+                                "value": "https://upload.wikimedia.org/wikipedia/commons/5/5c/John_Lyman_-_Autoportrait_-_1918.jpg", "source": "John Lyman - Autoportrait - 1918 - Musée national des beaux-arts du Québec, Public domain, via Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:John_Lyman_-_Autoportrait_-_1918.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Musée national des beaux-arts du Québec"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Roland Michener (1900-1991)",
+        "id": "0001_111",
+        "type": "Person",
+        "sort_name": "Michener, Roland (1900-1991)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": "Q525733",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q525733"
+                            },
+                            {
+                                "value": "32796396",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/32796396"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Roland Michener"
+                            },
+                            {
+                                "value": "Daniel Roland Michener"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1900-04-19",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Toronto, CA-ON",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": "1991-08-06",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Lacombe, CA-AB",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": "lawyer"
+                            },
+                            {
+                                "value": "diplomat"
+                            },
+                            {
+                                "value": "politician"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Tom Thomson (1877-1917)",
+        "id": "0001_115",
+        "type": "Person",
+        "sort_name": "Thomson, Tom (1877-1917)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": "16160",
+                                "source": "Artists in Canada",
+                                "url": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=16160"
+                            },
+                            {
+                                "value": "500005741",
+                                "source": "Union List of Artist Names",
+                                "url": "http://vocab.getty.edu/page/ulan/500005741"
+                            },
+                            {
+                                "value": "Q2035136",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q2035136"
+                            },
+                            {
+                                "value": "20482356",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/20482356"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Tom Thomson"
+                            },
+                            {
+                                "value": "Thomas John Thomson"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Birth",
+                        "item_data":
+                        [
+                            {
+                                "value": "1877-08-05",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Claremont, CA-ON",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Death",
+                        "item_data":
+                        [
+                            {
+                                "value": "1917-07-08",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Algonquin Park, CA-ON",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Occupation",
+                        "item_data":
+                        [
+                            {
+                                "value": "painter"
+                            },
+                            {
+                                "value": "printmaker"
+                            },
+                            {
+                                "value": "draftperson"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Image",
+                        "item_data":
+                        [
+                            {
+                                "value": "https://upload.wikimedia.org/wikipedia/commons/2/27/TomThomson23.jpg", "source": "Portrait of Tom Thomson (3192063) - Lawren Stewart Harris fonds - Library and Archives of Canada, Public domain, via Wikimedia Commons", "url": "https://commons.wikimedia.org/wiki/File:TomThomson23.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Art Gallery of Ontario"
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "National Gallery of Canada"
+                            },
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Canadian Group of Painters (1933-1969)",
+        "id": "0001_112",
+        "type": "Group",
+        "sort_name": "Canadian Group of Painters (1933-1969)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": "Q11734722",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q11734722"
+                            },
+                            {
+                                "value": "305205225",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/305205225"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Canadian Group of Painters"
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Formation",
+                        "item_data":
+                        [
+                            {
+                                "value": "1933",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Toronto, CA-ON",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Dissolution",
+                        "item_data":
+                        [
+                            {
+                                "value": "1969",
+                                "type": "Date"
+                            },
+                            {
+                                "value": null,
+                                "type": "Place"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": "Founded in 1933 after the disbanding of the Group of Seven by former members and their associates, the Canadian Group of Painters championed modernist painting styles against the entrenched traditionalism of the Royal Canadian Academy of Arts. It provided a platform for artists across Canada who were pursuing a variety of new concerns, from the formal experimentation of Bertram Brooker to the modern-figure subjects of Prudence Heward and Pegi Nicol MacLeod and the expressive landscapes of Emily Carr."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Contemporary Arts Society (1939-)",
+        "id": "0001_116",
+        "type": "Group",
+        "sort_name": "Contemporary Arts Society (1939-)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": "Q3487787",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q3487787"
+                            },
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Société d’art contemporain"
+                            },
+                            {
+                                "value": "Contemporary Arts Society"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Formation",
+                        "item_data":
+                        [
+                            {
+                                "value": "1939-01",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Montréal, CA-QC",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Dissolution",
+                        "item_data":
+                        [
+                            {
+                                "value": null,
+                                "type": "Date"
+                            },
+                            {
+                                "value": null,
+                                "type": "Place"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Royal Canadian Academy of Arts (1880-)",
+        "id": "0001_119",
+        "type": "Group",
+        "sort_name": "Royal Canadian Academy of Arts (1880-)",
+        "data":
+        [
+            {
+                "block": "Identification",
+                "block_data":
+                [
+                    {
+                        "item": "Identifiers",
+                        "item_data":
+                        [
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": null,
+                                "source": null,
+                                "url": null
+                            },
+                            {
+                                "value": "Q2822453",
+                                "source": "Wikidata",
+                                "url": "https://www.wikidata.org/wiki/Q2822453"
+                            },
+                            {
+                                "value": "153134885",
+                                "source": "Virtual International Authority File",
+                                "url": "https://viaf.org/viaf/153134885"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Appellations",
+                        "item_data":
+                        [
+                            {
+                                "value": "Royal Canadian Academy of Arts"
+                            },
+                            {
+                                "value": "Académie royale des arts du Canada"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Life Events",
+                "block_data":
+                [
+                    {
+                        "item": "Formation",
+                        "item_data":
+                        [
+                            {
+                                "value": "1880",
+                                "type": "Date"
+                            },
+                            {
+                                "value": "Ottawa, CA-ON",
+                                "type": "Place"
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Dissolution",
+                        "item_data":
+                        [
+                            {
+                                "value": null,
+                                "type": "Date"
+                            },
+                            {
+                                "value": null,
+                                "type": "Place"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Descriptive Information",
+                "block_data":
+                [
+                    {
+                        "item": "Biography",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "Provenance",
+                "block_data":
+                [
+                    {
+                        "item": "Collecting Institutions",
+                        "item_data":
+                        [
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            },
+                            {
+                                "value": null
+                            }
+                        ]
+                    },
+                    {
+                        "item": "Data Contributors",
+                        "item_data":
+                        [
+                            {
+                                "value": "Wikidata"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 ]

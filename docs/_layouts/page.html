@@ -2,20 +2,10 @@
 layout: default
 ---
 
-<!-- <div class="sidebar">
-  <ul class="actors_list">
-    {% for item in site.data.list %}
-    <li>
-      <a href="/consolidated_list_of_actors/{{ item.url }}">{{ item.name }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</div> -->
-
 {% if page.sidebar == "actors_list" %}
 {% for a in site.data.actors %}
 {% assign page_url = page.url | split: "/" %}
-{% if a.id == page_url[1] %}
+{% if a.id == page_url[-1] %}
 <article class="post actor-page">
   <header class="post-header">
     <h1 class="post-title">{{ a.label | escape }}</h1>
@@ -27,6 +17,9 @@ layout: default
       <h3>{{ d.block }}</h3>
       
       <table>
+        <colgroup>
+        <col style="width: 20%">
+        </colgroup>
         <tbody>
           {% for bd in d.block_data %}
           <tr>
@@ -35,17 +28,27 @@ layout: default
               <ul>
                 {% for item_data in bd.item_data %}
                 <li>
-                  {{ item_data.value }}
+                  {% if bd.item == "Image" %}
+                  <figure>
+                  <img src="{{ item_data.value }}">
+                  <figcaption>(<a href="{{ item_data.url }}" target="_blank">
+                    <em>{{ item_data.source }}</em>
+                  </a>)
+                  </figcaption>
+                  </figure>
+                  {% else %}
+                  {{ item_data.value }}                  
                   {% if item_data.source %}
                   <span><em>(
                   {% if item_data.url %}
-                  <a href="{{ item_data.url }}">
+                  <a href="{{ item_data.url }}" target="_blank">
                     {{ item_data.source }}
                   </a>
                   {% else %}
                   {{ item_data.source }}
                   {% endif %}
                   )</em></span>
+                  {% endif %}
                   {% endif %}
                 </li>
                 {% endfor %}
