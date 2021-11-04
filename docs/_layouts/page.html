@@ -28,6 +28,7 @@ layout: default
               <ul>
                 {% for item_data in bd.item_data %}
                 <li>
+                  {% if item_data.value %}
                   {% if bd.item == "Image" %}
                   <figure>
                   <img src="{{ item_data.value }}">
@@ -48,6 +49,7 @@ layout: default
                   {{ item_data.source }}
                   {% endif %}
                   )</em></span>
+                  {% endif %}
                   {% endif %}
                   {% endif %}
                 </li>
