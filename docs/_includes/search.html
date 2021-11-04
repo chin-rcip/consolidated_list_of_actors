@@ -29,7 +29,7 @@ THE SOFTWARE. -->
 var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
     "id": {{ counter }},
     "url": "{{ site.url }}/consolidated_list_of_actors{{ page.url }}",
-    "title": "{% if page.titleEn %}{{ page.titleEn}}{% elsif page.title %}{{ page.title }}{% else %}{% for a in site.data.actors %}{% assign page_url = page.url | split: "/" %}{% if a.id == page_url[1] %}{{ a.label }}{% endif %}{% endfor %}{% endif %}",
+    "title": "{% if page.titleEn %}{{ page.titleEn}}{% elsif page.title %}{{ page.title }}{% else %}{% for a in site.data.actors %}{% assign page_url = page.url | split: "/" %}{% if a.id == page_url[-1] %}{{ a.label }}{% endif %}{% endfor %}{% endif %}",
     "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | replace: '</td>', ' ' | strip_html | strip_newlines |   replace: 'EN-', '' | replace: 'FR', '' | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
     }{% if forloop.last %}{% else %}, {% endif %}{% endif %}{% endfor %}];
 
