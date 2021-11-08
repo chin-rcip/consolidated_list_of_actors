@@ -1,0 +1,123 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmdig: <http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <https://vocab.example.info/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_100> a crm:E21_Person ;
+    rdfs:label "Yousuf Karsh (1908-2002)"@en ;
+    crm:P100i_died_in <https://dopheda.info/crm_e64/824D145D-9750-4580-8C90-BD4E23BAF3CF> ;
+    crm:P138i_has_representation <https://dopheda.info/crm_e28/1E85A7B9-F72D-4DDB-A932-01F8B618D39F> ;
+    crm:P14i_performed <https://dopheda.info/crm_e5/4B913CD1-FBE8-4A84-BF9B-0008BFF28C48> ;
+    crm:P1_is_identified_by <http://vocab.getty.edu/page/ulan/500013272>,
+        <https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=8494>,
+        <https://dopheda.info/crm_e41e33/4D878A3E-0411-3130-B67F-363364DB9379>,
+        <https://dopheda.info/crm_e41e33/A32DD758-D0E1-3E54-AE9F-8F6D1DF14E29>,
+        <https://viaf.org/viaf/41608223>,
+        <https://www.wikidata.org/wiki/Q312859> ;
+    crm:P67i_is_referred_to_by <https://dopheda.info/crm_e28/ACD1898D-1B05-4477-9C7F-0F3A8AB8734B>,
+        <https://dopheda.info/crm_e28/F560E748-A16C-462A-AD94-F344464A5812> ;
+    crm:P98i_was_born <https://dopheda.info/crm_e63/A4FA5571-563D-4648-91B4-06695CBE474F> .
+
+<http://vocab.getty.edu/page/ulan/500013272> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "500013272" .
+
+<https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=8494> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "8494" .
+
+<https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_1> a crm:E74_Group ;
+    rdfs:label "National Gallery of Canada"@en .
+
+<https://dopheda.info/crm_e28/1E85A7B9-F72D-4DDB-A932-01F8B618D39F> a crm:E36_Visual_Item ;
+    dct:source "This image was found on Wikimedia Commons (Yousuf Karsh, Public domain), and originally available from Library and Archives Canada under the reproduction reference number PA-212511 and under the MIKAN ID number 3198631."@en ;
+    crm:P165i_is_incorporated_in <https://dopheda.info/crmdig_d1/EC74EC29-453A-4DEB-8680-0AA378E1FA3F> .
+
+<https://dopheda.info/crm_e28/ACD1898D-1B05-4477-9C7F-0F3A8AB8734B> a crm:E33_Linguistic_Object ;
+    dct:source "Berman, Eliza (18 March 2015). \"Yousuf Karsh's Masterful Portraits From Churchill to Hepburn\". Time."@en ;
+    crm:P190_has_symbolic_content "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."@en ;
+    crm:P2_has_type vocab:10030 ;
+    crm:P72_has_language vocab:2001 .
+
+<https://dopheda.info/crm_e28/F560E748-A16C-462A-AD94-F344464A5812> a crm:E73_Information_Object ;
+    crm:P2_has_type vocab:10035 ;
+    crm:P94i_was_created_by <https://dopheda.info/crm_e5/7F22A95B-E927-4E2A-BD71-CD43A6FBFD09> .
+
+<https://dopheda.info/crm_e41/453B3E57-1B48-4B9F-B289-65F36438932F> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yousuf-Karsh.jpg"@en ;
+    crm:P2_has_type vocab:10029 .
+
+<https://dopheda.info/crm_e41e33/4D878A3E-0411-3130-B67F-363364DB9379> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Յուսուֆ Քարշ"@en ;
+    crm:P72_has_language vocab:2003 .
+
+<https://dopheda.info/crm_e41e33/A32DD758-D0E1-3E54-AE9F-8F6D1DF14E29> a crm:E33_Linguistic_Object,
+        crm:E41_Appellation ;
+    crm:P190_has_symbolic_content "Yousuf Karsh"@en ;
+    crm:P72_has_language vocab:2001 .
+
+<https://dopheda.info/crm_e5/4B913CD1-FBE8-4A84-BF9B-0008BFF28C48> a frbroo:F51_Pursuit ;
+    crm:P2_has_type vocab:10019 .
+
+<https://dopheda.info/crm_e5/7F22A95B-E927-4E2A-BD71-CD43A6FBFD09> a crm:E65_Creation ;
+    crm:P14_carried_out_by <https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_1> ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/F3EC479B-C3C8-4BA4-AC99-7872E9935E24> .
+
+<https://dopheda.info/crm_e52/4407F2F8-BB66-448F-9240-B40E2E9FB4C6> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2002-07-13T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2002-07-13T23:59:59+00:00"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/E0744564-7382-4010-B2F1-66694636B80F> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "1908-12-23T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1908-12-23T:23:59:59Z"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e52/F3EC479B-C3C8-4BA4-AC99-7872E9935E24> a crm:E52_Time-Span ;
+    crm:P82a_begin_of_the_begin "2011-06-03T00:00:00+00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2011-06-03T23:59:59+00:00"^^xsd:dateTime .
+
+<https://dopheda.info/crm_e63/A4FA5571-563D-4648-91B4-06695CBE474F> a crm:E67_Birth ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/E0744564-7382-4010-B2F1-66694636B80F> ;
+    crm:P7_took_place_at <urn:uuid:63d1c8b9-5700-4953-8f21-603e880037ab> .
+
+<https://dopheda.info/crm_e64/824D145D-9750-4580-8C90-BD4E23BAF3CF> a crm:E69_Death ;
+    crm:P4_has_time-span <https://dopheda.info/crm_e52/4407F2F8-BB66-448F-9240-B40E2E9FB4C6> ;
+    crm:P7_took_place_at vocab:3002 .
+
+<https://dopheda.info/crmdig_d1/EC74EC29-453A-4DEB-8680-0AA378E1FA3F> a crmdig:D1_Digital_Object ;
+    crm:P1_is_identified_by <https://dopheda.info/crm_e41/453B3E57-1B48-4B9F-B289-65F36438932F> .
+
+<https://viaf.org/viaf/41608223> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "41608223" .
+
+vocab:10019 a crm:E55_Type ;
+    rdfs:label "photographer"@en ;
+    crm:P2_has_type vocab:10026 .
+
+vocab:10026 a crm:E55_Type ;
+    rdfs:label "occupation"@en .
+
+vocab:10029 a crm:E55_Type ;
+    rdfs:label "URL"@en .
+
+vocab:10030 a crm:E55_Type ;
+    rdfs:label "biography"@en .
+
+vocab:10035 a crm:E55_Type ;
+    rdfs:label "record"@en .
+
+vocab:2003 a crm:E56_Language ;
+    rdfs:label "Armenian"@en .
+
+vocab:3002 a crm:E53_Place ;
+    rdfs:label "Boston, USA-MA"@en .
+
+<https://www.wikidata.org/wiki/Q312859> a crm:E42_Identifier ;
+    crm:P190_has_symbolic_content "Q312859" .
+
+<urn:uuid:63d1c8b9-5700-4953-8f21-603e880037ab> a crm:E53_Place .
+
+vocab:2001 a crm:E56_Language ;
+    rdfs:label "English"@en .
+

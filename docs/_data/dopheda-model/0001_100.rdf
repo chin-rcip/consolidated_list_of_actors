@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e41e33/4D878A3E-0411-3130-B67F-363364DB9379">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P190_has_symbolic_content xml:lang="en">Յուսուֆ Քարշ</crm:P190_has_symbolic_content>
+    <crm:P72_has_language rdf:resource="https://vocab.example.info/2003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e52/4407F2F8-BB66-448F-9240-B40E2E9FB4C6">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-07-13T00:00:00+00:00</crm:P82a_begin_of_the_begin>
+    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2002-07-13T23:59:59+00:00</crm:P82b_end_of_the_end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e28/F560E748-A16C-462A-AD94-F344464A5812">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <crm:P2_has_type rdf:resource="https://vocab.example.info/10035"/>
+    <crm:P94i_was_created_by rdf:resource="https://dopheda.info/crm_e5/7F22A95B-E927-4E2A-BD71-CD43A6FBFD09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/10035">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">record</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crmdig_d1/EC74EC29-453A-4DEB-8680-0AA378E1FA3F">
+    <rdf:type rdf:resource="http://www.ics.forth.gr/isl/CRMext/CRMdig.rdfs/D1_Digital_Object"/>
+    <crm:P1_is_identified_by rdf:resource="https://dopheda.info/crm_e41/453B3E57-1B48-4B9F-B289-65F36438932F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://viaf.org/viaf/41608223">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+    <crm:P190_has_symbolic_content>41608223</crm:P190_has_symbolic_content>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/3002">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:label xml:lang="en">Boston, USA-MA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e52/F3EC479B-C3C8-4BA4-AC99-7872E9935E24">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-03T00:00:00+00:00</crm:P82a_begin_of_the_begin>
+    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2011-06-03T23:59:59+00:00</crm:P82b_end_of_the_end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e28/1E85A7B9-F72D-4DDB-A932-01F8B618D39F">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E36_Visual_Item"/>
+    <dct:source xml:lang="en">This image was found on Wikimedia Commons (Yousuf Karsh, Public domain), and originally available from Library and Archives Canada under the reproduction reference number PA-212511 and under the MIKAN ID number 3198631.</dct:source>
+    <crm:P165i_is_incorporated_in rdf:resource="https://dopheda.info/crmdig_d1/EC74EC29-453A-4DEB-8680-0AA378E1FA3F"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/2003">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E56_Language"/>
+    <rdfs:label xml:lang="en">Armenian</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/10029">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">URL</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e41e33/A32DD758-D0E1-3E54-AE9F-8F6D1DF14E29">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation"/>
+    <crm:P190_has_symbolic_content xml:lang="en">Yousuf Karsh</crm:P190_has_symbolic_content>
+    <crm:P72_has_language rdf:resource="https://vocab.example.info/2001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e64/824D145D-9750-4580-8C90-BD4E23BAF3CF">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E69_Death"/>
+    <crm:P4_has_time-span rdf:resource="https://dopheda.info/crm_e52/4407F2F8-BB66-448F-9240-B40E2E9FB4C6"/>
+    <crm:P7_took_place_at rdf:resource="https://vocab.example.info/3002"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_100">
+    <rdfs:label xml:lang="en">Yousuf Karsh (1908-2002)</rdfs:label>
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E21_Person"/>
+    <crm:P1_is_identified_by rdf:resource="https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&amp;rID=8494"/>
+    <crm:P1_is_identified_by rdf:resource="http://vocab.getty.edu/page/ulan/500013272"/>
+    <crm:P1_is_identified_by rdf:resource="https://www.wikidata.org/wiki/Q312859"/>
+    <crm:P1_is_identified_by rdf:resource="https://viaf.org/viaf/41608223"/>
+    <crm:P1_is_identified_by rdf:resource="https://dopheda.info/crm_e41e33/4D878A3E-0411-3130-B67F-363364DB9379"/>
+    <crm:P1_is_identified_by rdf:resource="https://dopheda.info/crm_e41e33/A32DD758-D0E1-3E54-AE9F-8F6D1DF14E29"/>
+    <crm:P98i_was_born rdf:resource="https://dopheda.info/crm_e63/A4FA5571-563D-4648-91B4-06695CBE474F"/>
+    <crm:P100i_died_in rdf:resource="https://dopheda.info/crm_e64/824D145D-9750-4580-8C90-BD4E23BAF3CF"/>
+    <crm:P14i_performed rdf:resource="https://dopheda.info/crm_e5/4B913CD1-FBE8-4A84-BF9B-0008BFF28C48"/>
+    <crm:P138i_has_representation rdf:resource="https://dopheda.info/crm_e28/1E85A7B9-F72D-4DDB-A932-01F8B618D39F"/>
+    <crm:P67i_is_referred_to_by rdf:resource="https://dopheda.info/crm_e28/ACD1898D-1B05-4477-9C7F-0F3A8AB8734B"/>
+    <crm:P67i_is_referred_to_by rdf:resource="https://dopheda.info/crm_e28/F560E748-A16C-462A-AD94-F344464A5812"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e52/E0744564-7382-4010-B2F1-66694636B80F">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <crm:P82a_begin_of_the_begin rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1908-12-23T00:00:00+00:00</crm:P82a_begin_of_the_begin>
+    <crm:P82b_end_of_the_end rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1908-12-23T:23:59:59Z</crm:P82b_end_of_the_end>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e41/453B3E57-1B48-4B9F-B289-65F36438932F">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+    <crm:P190_has_symbolic_content xml:lang="en">https://upload.wikimedia.org/wikipedia/commons/3/3a/Yousuf-Karsh.jpg</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://vocab.example.info/10029"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e5/7F22A95B-E927-4E2A-BD71-CD43A6FBFD09">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E65_Creation"/>
+    <crm:P14_carried_out_by rdf:resource="https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_1"/>
+    <crm:P4_has_time-span rdf:resource="https://dopheda.info/crm_e52/F3EC479B-C3C8-4BA4-AC99-7872E9935E24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e28/ACD1898D-1B05-4477-9C7F-0F3A8AB8734B">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E33_Linguistic_Object"/>
+    <dct:source xml:lang="en">Berman, Eliza (18 March 2015). "Yousuf Karsh's Masterful Portraits From Churchill to Hepburn". Time.</dct:source>
+    <crm:P190_has_symbolic_content xml:lang="en">Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992.</crm:P190_has_symbolic_content>
+    <crm:P2_has_type rdf:resource="https://vocab.example.info/10030"/>
+    <crm:P72_has_language rdf:resource="https://vocab.example.info/2001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.wikidata.org/wiki/Q312859">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+    <crm:P190_has_symbolic_content>Q312859</crm:P190_has_symbolic_content>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/10026">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">occupation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&amp;rID=8494">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+    <crm:P190_has_symbolic_content>8494</crm:P190_has_symbolic_content>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_1">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E74_Group"/>
+    <rdfs:label xml:lang="en">National Gallery of Canada</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e63/A4FA5571-563D-4648-91B4-06695CBE474F">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E67_Birth"/>
+    <crm:P4_has_time-span rdf:resource="https://dopheda.info/crm_e52/E0744564-7382-4010-B2F1-66694636B80F"/>
+    <crm:P7_took_place_at rdf:resource="urn:uuid:63d1c8b9-5700-4953-8f21-603e880037ab"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/2001">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E56_Language"/>
+    <rdfs:label xml:lang="en">English</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/10030">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <rdfs:label xml:lang="en">biography</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://dopheda.info/crm_e5/4B913CD1-FBE8-4A84-BF9B-0008BFF28C48">
+    <rdf:type rdf:resource="http://iflastandards.info/ns/fr/frbr/frbroo/F51_Pursuit"/>
+    <crm:P2_has_type rdf:resource="https://vocab.example.info/10019"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://vocab.example.info/10019">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
+    <crm:P2_has_type rdf:resource="https://vocab.example.info/10026"/>
+    <rdfs:label xml:lang="en">photographer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://vocab.getty.edu/page/ulan/500013272">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E42_Identifier"/>
+    <crm:P190_has_symbolic_content>500013272</crm:P190_has_symbolic_content>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:63d1c8b9-5700-4953-8f21-603e880037ab">
+    <rdf:type rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+  </rdf:Description>
+</rdf:RDF>
