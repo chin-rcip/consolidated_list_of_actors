@@ -1,5 +1,6 @@
 [
     {
+        "uri": null,
         "label": "David Altmejd (1974-)",
         "id": "0001_109",
         "type": "Person",
@@ -189,6 +190,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "Cyril Henry Barraud (1877-1965)",
         "id": "0001_114",
         "type": "Person",
@@ -377,6 +379,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "Emily Carr (1871-1945)",
         "id": "0001_106",
         "type": "Person",
@@ -566,6 +569,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "A. J. Casson (1898-1992)",
         "id": "0001_113",
         "type": "Person",
@@ -755,6 +759,7 @@
         ]
     },
     {
+        "uri": "/consolidated_list_of_actors/crm_e39/0001_100",
         "label": "Yousuf Karsh (1908-2002)",
         "id": "0001_100",
         "type": "Person",
@@ -944,6 +949,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "John Lyman (1886-1967)",
         "id": "0001_117",
         "type": "Person",
@@ -1133,6 +1139,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "Roland Michener (1900-1991)",
         "id": "0001_111",
         "type": "Person",
@@ -1318,6 +1325,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "Tom Thomson (1877-1917)",
         "id": "0001_115",
         "type": "Person",
@@ -1507,6 +1515,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "Canadian Group of Painters (1933-1969)",
         "id": "0001_112",
         "type": "Group",
@@ -1677,6 +1686,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "Contemporary Arts Society (1939-)",
         "id": "0001_116",
         "type": "Group",
@@ -1847,6 +1857,7 @@
         ]
     },
     {
+        "uri": null,
         "label": "Royal Canadian Academy of Arts (1880-)",
         "id": "0001_119",
         "type": "Group",

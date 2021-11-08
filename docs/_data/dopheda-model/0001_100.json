@@ -1,0 +1,196 @@
+{
+  "@context": "https://trangdg.github.io/collections-model/dopheda_context.json",
+  "@id": "https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_100",
+  "_label": {
+    "en": "Yousuf Karsh (1908-2002)"
+  },
+  "@type": "Person",  
+  "is_identified_by": [
+    {
+      "@id": "https://app.pch.gc.ca/application/aac-aic/artiste_detailler_bas-artist_detail_bas.app?lang=en&rID=8494",
+      "@type": "Identifier",
+      "has_symbolic_content": "8494"
+    },
+    {
+      "@id": "http://vocab.getty.edu/page/ulan/500013272",
+      "@type": "Identifier",
+      "has_symbolic_content": "500013272"
+    },
+    {
+      "@id": "https://www.wikidata.org/wiki/Q312859",
+      "@type": "Identifier",
+      "has_symbolic_content": "Q312859"
+    },
+    {
+      "@id": "https://viaf.org/viaf/41608223",
+      "@type": "Identifier",
+      "has_symbolic_content": "41608223"
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41e33/4D878A3E-0411-3130-B67F-363364DB9379",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "@language": "en",
+        "@value": "Յուսուֆ Քարշ"
+      },
+      "has_language": {
+        "@id": "vocab:2003",
+        "@type": "Language",
+        "_label": {
+          "en": "Armenian"
+        }
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e41e33/A32DD758-D0E1-3E54-AE9F-8F6D1DF14E29",
+      "@type": [
+        "Linguistic_Object",
+        "Appellation"
+      ],
+      "has_symbolic_content": {
+        "@language": "en",
+        "@value": "Yousuf Karsh"
+      },
+      "has_language": {
+        "@id": "vocab:2001",
+        "@type": "Language",
+        "_label": {
+          "en": "English"
+        }
+      }
+    }
+  ],
+  "was_born": {
+    "@id": "https://dopheda.info/crm_e63/A4FA5571-563D-4648-91B4-06695CBE474F",
+    "@type": "Birth",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/E0744564-7382-4010-B2F1-66694636B80F",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "1908-12-23T00:00:00+00:00",
+      "end_of_the_end": "1908-12-23T:23:59:59Z"
+    },
+    "took_place_at": {
+      "@id": "urn:uuid:63d1c8b9-5700-4953-8f21-603e880037ab",
+      "@type": "Place"
+    }
+  },
+  "died_in": {
+    "@id": "https://dopheda.info/crm_e64/824D145D-9750-4580-8C90-BD4E23BAF3CF",
+    "@type": "Death",
+    "has_time-span": {
+      "@id": "https://dopheda.info/crm_e52/4407F2F8-BB66-448F-9240-B40E2E9FB4C6",
+      "@type": "Time-Span",
+      "begin_of_the_begin": "2002-07-13T00:00:00+00:00",
+      "end_of_the_end": "2002-07-13T23:59:59+00:00"
+    },
+    "took_place_at": {
+      "@id": "vocab:3002",
+      "@type": "Place",
+      "_label": {
+        "en": "Boston, USA-MA"
+      }
+    }
+  },
+  "performed": [
+    {
+      "@id": "https://dopheda.info/crm_e5/4B913CD1-FBE8-4A84-BF9B-0008BFF28C48",
+      "@type": "Pursuit",
+      "has_type": {
+        "@id": "vocab:10019",
+        "@type": "Type",
+        "has_type": {
+          "@id": "vocab:10026",
+          "@type": "Type",
+          "_label": {
+            "en": "occupation"
+          }
+        },
+        "_label": {
+          "en": "photographer"
+        }
+      }
+    }
+  ],
+  "has_representation": {
+    "@id": "https://dopheda.info/crm_e28/1E85A7B9-F72D-4DDB-A932-01F8B618D39F",
+    "@type": "Visual_Item",
+    "dct:source": {
+      "@language": "en",
+      "@value": "This image was found on Wikimedia Commons (Yousuf Karsh, Public domain), and originally available from Library and Archives Canada under the reproduction reference number PA-212511 and under the MIKAN ID number 3198631."
+    },
+    "is_incorporated_in": {
+      "@id": "https://dopheda.info/crmdig_d1/EC74EC29-453A-4DEB-8680-0AA378E1FA3F",
+      "@type": "Digital_Object",
+      "is_identified_by": {
+        "@id": "https://dopheda.info/crm_e41/453B3E57-1B48-4B9F-B289-65F36438932F",
+        "@type": "Identifier",
+        "has_symbolic_content": {
+          "@language": "en",
+          "@value": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Yousuf-Karsh.jpg"
+        },
+        "has_type": {
+          "@id": "vocab:10029",
+          "@type": "Type",
+          "_label": {
+            "en": "URL"
+          }
+        }
+      }
+    }
+  },
+  "is_referred_to_by": [
+    {
+      "@id": "https://dopheda.info/crm_e28/ACD1898D-1B05-4477-9C7F-0F3A8AB8734B",
+      "@type": "Linguistic_Object",
+      "dct:source": {
+        "@language": "en",
+        "@value": "Berman, Eliza (18 March 2015). \"Yousuf Karsh's Masterful Portraits From Churchill to Hepburn\". Time."
+      },
+      "has_symbolic_content": {
+        "@language": "en",
+        "@value": "Yousuf Karsh CC (December 23, 1908 – July 13, 2002) was an Armenian-Canadian photographer known for his portraits of notable individuals. He has been described as one of the greatest portrait photographers of the 20th century. An Armenian genocide survivor, Karsh migrated to Canada as a refugee. By the 1930s he established himself as a significant photographer in Ottawa, where he lived most of his adult life, though he traveled extensively for work. His iconic 1941 photograph of Winston Churchill was a breakthrough point in his 60-year career, through which he took numerous photos of known political leaders, men and women of arts and sciences. Over 20 photos by Karsh appeared on the cover of *Life* magazine, until he retired in 1992."
+      },
+      "has_type": {
+        "@id": "vocab:10030",
+        "@type": "Type",
+        "_label": {
+          "en": "biography"
+        }
+      },
+      "has_language": {
+        "@id": "vocab:2001"
+      }
+    },
+    {
+      "@id": "https://dopheda.info/crm_e28/F560E748-A16C-462A-AD94-F344464A5812",
+      "@type": "Information_Object",
+      "has_type": {
+        "@id": "vocab:10035",
+        "@type": "Type",
+        "_label": {
+          "en": "record"
+        }
+      },
+      "was_created_by": {
+        "@id": "https://dopheda.info/crm_e5/7F22A95B-E927-4E2A-BD71-CD43A6FBFD09",
+        "@type": "Creation",
+        "carried_out_by": {
+          "@id": "https://chin-rcip.github.io/consolidated_list_of_actors/e39/0001_1",
+          "@type": "Group",
+          "_label": {
+            "en": "National Gallery of Canada"
+          }
+        },
+        "has_time-span": {
+          "@id": "https://dopheda.info/crm_e52/F3EC479B-C3C8-4BA4-AC99-7872E9935E24",
+          "@type": "Time-Span",
+          "begin_of_the_begin": "2011-06-03T00:00:00+00:00",
+          "end_of_the_end": "2011-06-03T23:59:59+00:00"
+        }
+      }
+    }
+  ]
+}

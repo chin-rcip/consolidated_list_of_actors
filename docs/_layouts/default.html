@@ -22,7 +22,7 @@
               <li>
                 <a {% if item.hash %}id="toc-{{ item.hash }}"{% endif %} href="{% if item.url %}/consolidated_list_of_actors{{ item.url }}{% else %}javascript:void(0){% endif %}" class="{% if item.group %}toggle-sidebar-list {% if item.group == page.group%}open{% endif %}{% endif %}">{{ item.title }}
                   {% if item.group %}
-                  <span class="triangle">{% if item.group == page.group %}&#9660;{% else %}&#9655;{% endif %}</span>
+                  <span class="triangle">{% if item.group == page.group %}&#9661;{% else %}&#9654;{% endif %}</span>
                   {% endif %}
                   <span class="tooltip">{{ item.title }}</span>
                 </a>
@@ -132,8 +132,8 @@
         $(this).siblings().toggle();
         $(this).toggleClass("open");
         if ($(this).hasClass('open')){
-          $(this).find(".triangle").text('\u25BC');
-        } else {$(this).find(".triangle").text('\u25B7');}
+          $(this).find(".triangle").text('\u25BD');
+        } else {$(this).find(".triangle").text('\u25B6');}
         
       });
       // show/hide search modal

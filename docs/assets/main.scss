@@ -291,6 +291,15 @@ li a.active {
 		top: 80px;
 		
 	}
+
+	.post-header {
+	position: relative;
+	}
+	.post-header .download {
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+	}
 }
 
 
@@ -441,6 +450,14 @@ header .wrapper {
 
 img {
 	border: 1px solid lightgray;
+}
+
+
+.open {
+    border-bottom: solid 2px;
+}
+.triangle {
+    float: right;
 }
 
 /*--- style when changing windown size ---*/
