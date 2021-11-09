@@ -19,5 +19,5 @@ Map with pins of institutions collecting works of Yousuf Karsh
 Scatterplot of each actor (male and female) by number of colelcting institutions
 ![](/consolidated_list_of_actors/images/data-viz-2.jpg)
 
-Choropleth: number of actors by birth place
+Choropleth: number of actors by birth/formation place
 ![](/consolidated_list_of_actors/images/data-viz-3.jpg)
