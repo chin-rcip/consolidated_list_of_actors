@@ -29,3 +29,61 @@ actors_list:
     url: /page/0001_116
   - page: Royal Canadian Academy of Arts (1880-)
     url: /page/0001_119
+
+
+project-desc:
+
+- title: Description
+  url: /en/project-description#description
+  hash: description
+  subfolder:
+    - page: Context
+      url: /en/project-description#context
+      hash: context
+      subsubfolder:
+      - page: Relevance
+        url: /en/project-description#relevance
+        hash: relevance
+      - page: Benefits
+        url: /en/project-description#benefits
+        hash: benefits
+      - page: Challenges
+        url: /en/project-description#challenges
+        hash: challenges
+    - page: Anticipated Development
+      url: /en/project-description#anticipated-development
+      hash: anticipated-development
+      subsubfolder:
+      - page: Controlled List
+        url: /en/project-description#controlled-list
+        hash: controlled-list
+      - page: LOD Controlled List
+        url: /en/project-description#lod-controlled-list
+        hash: lod-controlled-list
+    - page: Definitions
+      url: /en/project-description#definitions
+      hash: definitions
+    - page: Statistics about Actors
+      url: /en/project-description#statistics-about-actors
+      hash: statistics-about-actors
+- title: Roadmap
+  url: /en/project-description#roadmap
+  hash: roadmap
+  subfolder:
+    - page: Pipeline
+      url: /en/project-description#pipeline
+      hash: pipeline
+- title: Resources
+  url: /en/project-description#resources
+  hash: resources
+  subfolder:
+    - page: Starting Requirements
+      url: /en/project-description#starting-requirements
+      hash: starting-requirements
+    - page: Development Requirements
+      ur: /en/project-description#development-requirements
+      hash: development-requirements
+    - page: Sustainability Requirements
+      ur: /en/project-description#sustainability-requirements
+      hash: sustainability-requirements
+

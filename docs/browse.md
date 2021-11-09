@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /en
+permalink: /en/browse
 title: Browse
 ---
 
