@@ -15,7 +15,7 @@ The list would be established by extracting relevant data from a series of relev
 
 The provenance of the information listed would be referenced (i.e. where the information was extracted from, or who submitted it) so that its credibility can be assessed by the user.  
 
-The CLA would be available under a [CC0 license](/consolidated_list_of_actors/en/licence). 
+The CLA would be available under a CC0 license.
 
 #### Relevance
 
