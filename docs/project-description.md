@@ -136,6 +136,21 @@ Analysis of several relevant datasets such as AiC, AC, ISNI, ULAN, Wikidata:
    * ULAN: 4477 (with Canadian nationality)
    * WD: 87,873
 * Are there any Canadian institutions contributing to ULAN or WD? If so, who are they?
+	* ULAN: one institution contributing to 2551 entities (Canadian Centre for Architecture)
+	* WD: Top 5 Institutions/databases having properties ID and number of entities [link to query](ULAN: one institution contributing to 2551 entities (Canadian Centre for Architecture)
+WD: Top 5 Institutions/databases having properties ID and number of entities (link to query)
+Canadiana Name Authority ID: 30670
+Cinémathèque québécoise person ID: 22205
+BAnQ author ID: 11176
+Library of PArliament of Canada person ID: 5129
+Dictionary of Canadian Biography ID: 5125
+)
+		* Canadiana Name Authority ID: 30670
+		* Cinémathèque québécoise person ID: 22205
+		* BAnQ author ID: 11176
+		* Library of PArliament of Canada person ID: 5129
+		* Dictionary of Canadian Biography ID: 5125
+
 
 ## Roadmap
 
